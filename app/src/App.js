@@ -18,7 +18,7 @@ function App() {
         {chars.map((char) => {
           return (
             <div className='char-card'>
-            <h2 className='char-title'>{char.name}</h2>
+            <h2>{char.name}</h2>
             <img alt='pic' src={char.image}></img>
             <div className='info'>
                 <p>{`Status: ${char.status}`}</p>
